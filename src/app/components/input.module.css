@@ -1,0 +1,5 @@
+.container_input input {
+  border: none;
+  border-bottom: 2px solid rgba(177, 176, 176);
+  outline: none;
+}
