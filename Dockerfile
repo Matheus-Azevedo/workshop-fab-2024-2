@@ -13,5 +13,10 @@ RUN npm install
 # Copia o restante do código do projeto
 COPY . .
 
+# Expõe a porta 3000 do container
+EXPOSE 3000
+
+RUN npm run build
+
 # Define o comando de inicialização do container
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
